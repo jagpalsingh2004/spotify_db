@@ -59,10 +59,13 @@ After the data is inserted, various SQL queries can be written to explore and an
 - Nested subqueries, window functions, CTEs, and performance optimization.
 
 
-## 15 Practice Questions
+## 10 Practice Questions
 
 ### Easy Level
 1. Retrieve the names of all tracks that have more than 1 billion streams.
+``` Sol: SELECT * FROM SPOTIFY
+WHERE STREAM < 1000000000
+```
 2. List all albums along with their respective artists.
 3. Get the total number of comments for tracks where `licensed = TRUE`.
 4. Find all tracks that belong to the album type `single`.
